@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
-import ProgressBar from './ProgressBar.jsx';
+import ProgressBar from "./ProgressBar.jsx";
 
 const TIMER = 3000;
 
@@ -18,7 +18,7 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
   return (
     <div id="delete-confirmation">
       <h2>Are you sure?</h2>
-      <p>Do you really want to remove this place?</p>
+      <p>Do you really want to remove this plafce?</p>
       <div id="confirmation-actions">
         <button onClick={onCancel} className="button-text">
           No
